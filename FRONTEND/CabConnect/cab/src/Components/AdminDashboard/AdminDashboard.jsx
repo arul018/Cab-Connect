@@ -114,7 +114,7 @@ const AdminDashboard = () => {
   const totalRides = bookings.length;
   const totalRevenue = bookings.reduce((sum, b) => sum + (typeof b.fare === 'number' ? b.fare : 0), 0);
 
-  if (loading) return <div>Loading...</div>;
+  if (loading) return <div>Loading</div>;
   if (error) return <div>Error: {error}</div>;
 
   return (
