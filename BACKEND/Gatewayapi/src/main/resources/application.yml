@@ -1,0 +1,72 @@
+server:
+  port: 8305
+
+spring:
+  application:
+    name: API-gateway
+
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "http://localhost:5173"
+            allowedMethods:
+              - GET
+              - POST
+              - PUT
+              - DELETE
+              - OPTIONS
+            allowedHeaders: "*"
+            allowCredentials: true
+      routes:
+        - id: driver-service
+          uri: lb://driver-service
+          predicates:
+            - Path=/api/drivers/**
+        - id: booking-service  
+          uri: lb://booking-service
+          predicates:
+            - Path=/api/bookings/**
+        - id: feedback
+          uri: lb://feedback
+          predicates:
+            - Path=/api/feedback/**
+        - id: authentication-service-users
+          uri: lb://authentication-service
+          predicates:
+            - Path=/api/users/**
+            - Method=GET,POST,PUT,DELETE
+        - id: authentication-service-auth
+          uri: lb://authentication-service
+          predicates:
+            - Path=/api/login, /api/register
+        - id: admin-service-api
+          uri: lb://admin-service
+          predicates:
+            - Path=/api/admin/**
+          filters:
+            - RewritePath=/api/admin/(?<segment>.*), /admin/$\{segment}
+        - id: admin-service
+          uri: lb://admin-service
+          predicates:
+            - Path=/admin/**
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    prefer-ip-address: true
+
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
+    com.netflix.discovery: DEBUG
+

@@ -1,0 +1,89 @@
+# 📚 **Authentication Service API Reference**
+
+## 🔗 **Service Details:**
+- **Local Port:** 9091
+- **Gateway Port:** 8305
+- **Base Path:** `/api`
+
+---
+
+## 🔸 **GET APIs (Browser Testable)**
+
+### 1. **Get All Users**
+```
+Method: GET
+Local:   http://localhost:9091/api/users
+Gateway: http://localhost:8305/api/users
+Body: None
+Headers: None required
+Comment: Returns list of all registered users with profile info
+```
+
+### 2. **Get User by ID**
+```
+Method: GET
+Local:   http://localhost:9091/api/users/{id}
+Gateway: http://localhost:8305/api/users/{id}
+Example: http://localhost:9091/api/users/1
+Body: None
+Headers: None required
+Comment: Replace {id} with actual user ID
+```
+
+### 3. **Get All Drivers**
+```
+Method: GET
+Local:   http://localhost:9091/api/drivers
+Gateway: http://localhost:8305/api/drivers
+Body: None
+Headers: None required
+Comment: Returns all users with role "DRIVER" and their vehicle details
+```
+
+### 4. **Get Driver by ID**
+```
+Method: GET
+Local:   http://localhost:9091/api/drivers/{id}
+Gateway: http://localhost:8305/api/drivers/{id}
+Example: http://localhost:9091/api/drivers/1
+Body: None
+Headers: None required
+Comment: Returns specific driver details including vehicle info
+```
+
+---
+
+## 🔸 **POST APIs (Postman Required)**
+
+### 5. **Register User**
+```
+Method: POST
+Local:   http://localhost:9091/api/register
+Gateway: http://localhost:8305/api/register
+Headers: Content-Type: application/json
+Body (raw JSON):
+{
+  "email": "user@email.com",
+  "password": "password123",
+  "fullName": "John Doe",
+  "role": "USER",
+  "phone": "1234567890"
+}
+Comment: Creates new user account. Role can be "USER" or "DRIVER"
+```
+
+### 6. **Login User**
+```
+Method: POST
+Local:   http://localhost:9091/api/login
+Gateway: http://localhost:8305/api/login
+Headers: Content-Type: application/json
+Body (raw JSON):
+{
+  "email": "user@email.com",
+  "password": "password123"
+}
+Comment: Authenticates user and returns JWT token
+```
+
+---

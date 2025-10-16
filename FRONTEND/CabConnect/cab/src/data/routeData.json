@@ -1,0 +1,235 @@
+{
+  "t. nagar-velachery": { "distance": 9.3 },
+  "velachery-t. nagar": { "distance": 9.3 },
+ 
+  "t. nagar-tambaram": { "distance": 20.2 },
+  "tambaram-t. nagar": { "distance": 20.2 },
+ 
+  "t. nagar-anna nagar": { "distance": 7.0 },
+  "anna nagar-t. nagar": { "distance": 7.0 },
+ 
+  "t. nagar-guindy": { "distance": 15.1 },
+  "guindy-t. nagar": { "distance": 15.1 },
+ 
+  "t. nagar-egmore": { "distance": 10.0 },
+  "egmore-t. nagar": { "distance": 10.0 },
+ 
+  "t. nagar-omr": { "distance": 18.4 },
+  "omr-t. nagar": { "distance": 18.4 },
+ 
+  "t. nagar-thiruvanmiyur": { "distance": 12.7 },
+  "thiruvanmiyur-t. nagar": { "distance": 12.7 },
+ 
+  "t. nagar-chrompet": { "distance": 14.8 },
+  "chrompet-t. nagar": { "distance": 14.8 },
+ 
+  "t. nagar-porur": { "distance": 8.5 },
+  "porur-t. nagar": { "distance": 8.5 },
+ 
+  "t. nagar-chennai central": { "distance": 13.2 },
+  "chennai central-t. nagar": { "distance": 13.2 },
+ 
+  "t. nagar-saidapet": { "distance": 13.0 },
+  "saidapet-t. nagar": { "distance": 13.0 },
+ 
+  "t. nagar-marina beach": { "distance": 12.1 },
+  "marina beach-t. nagar": { "distance": 12.1 },
+ 
+  "velachery-tambaram": { "distance": 15.9 },
+  "tambaram-velachery": { "distance": 15.9 },
+ 
+  "velachery-anna nagar": { "distance": 16.3 },
+  "anna nagar-velachery": { "distance": 16.3 },
+ 
+  "velachery-guindy": { "distance": 14.6 },
+  "guindy-velachery": { "distance": 14.6 },
+ 
+  "velachery-egmore": { "distance": 12.4 },
+  "egmore-velachery": { "distance": 12.4 },
+ 
+  "velachery-omr": { "distance": 25.0 },
+  "omr-velachery": { "distance": 25.0 },
+ 
+  "velachery-thiruvanmiyur": { "distance": 18.7 },
+  "thiruvanmiyur-velachery": { "distance": 18.7 },
+ 
+  "velachery-chrompet": { "distance": 17.8 },
+  "chrompet-velachery": { "distance": 17.8 },
+ 
+  "velachery-porur": { "distance": 14.0 },
+  "porur-velachery": { "distance": 14.0 },
+ 
+  "velachery-chennai central": { "distance": 19.5 },
+  "chennai central-velachery": { "distance": 19.5 },
+ 
+  "velachery-saidapet": { "distance": 14.2 },
+  "saidapet-velachery": { "distance": 14.2 },
+ 
+  "velachery-marina beach": { "distance": 18.3 },
+  "marina beach-velachery": { "distance": 18.3 },
+ 
+  "tambaram-anna nagar": { "distance": 30.4 },
+  "anna nagar-tambaram": { "distance": 30.4 },
+ 
+  "tambaram-guindy": { "distance": 17.0 },
+  "guindy-tambaram": { "distance": 17.0 },
+ 
+  "tambaram-egmore": { "distance": 22.6 },
+  "egmore-tambaram": { "distance": 22.6 },
+ 
+  "tambaram-omr": { "distance": 23.7 },
+  "omr-tambaram": { "distance": 23.7 },
+ 
+  "tambaram-thiruvanmiyur": { "distance": 27.9 },
+  "thiruvanmiyur-tambaram": { "distance": 27.9 },
+ 
+  "tambaram-chrompet": { "distance": 26.0 },
+  "chrompet-tambaram": { "distance": 26.0 },
+ 
+  "tambaram-porur": { "distance": 19.5 },
+  "porur-tambaram": { "distance": 19.5 },
+ 
+  "tambaram-chennai central": { "distance": 23.8 },
+  "chennai central-tambaram": { "distance": 23.8 },
+ 
+  "tambaram-saidapet": { "distance": 17.2 },
+  "saidapet-tambaram": { "distance": 17.2 },
+ 
+  "tambaram-marina beach": { "distance": 28.1 },
+  "marina beach-tambaram": { "distance": 28.1 },
+ 
+  "anna nagar-guindy": { "distance": 12.3 },
+  "guindy-anna nagar": { "distance": 12.3 },
+ 
+  "anna nagar-egmore": { "distance": 13.5 },
+  "egmore-anna nagar": { "distance": 13.5 },
+ 
+  "anna nagar-omr": { "distance": 28.0 },
+  "omr-anna nagar": { "distance": 28.0 },
+ 
+  "anna nagar-thiruvanmiyur": { "distance": 20.9 },
+  "thiruvanmiyur-anna nagar": { "distance": 20.9 },
+ 
+  "anna nagar-chrompet": { "distance": 18.0 },
+  "chrompet-anna nagar": { "distance": 18.0 },
+ 
+  "anna nagar-porur": { "distance": 10.8 },
+  "porur-anna nagar": { "distance": 10.8 },
+ 
+  "anna nagar-chennai central": { "distance": 14.4 },
+  "chennai central-anna nagar": { "distance": 14.4 },
+ 
+  "anna nagar-saidapet": { "distance": 21.1 },
+  "saidapet-anna nagar": { "distance": 21.1 },
+ 
+  "anna nagar-marina beach": { "distance": 25.7 },
+  "marina beach-anna nagar": { "distance": 25.7 },
+ 
+  "guindy-egmore": { "distance": 16.4 },
+  "egmore-guindy": { "distance": 16.4 },
+ 
+  "guindy-omr": { "distance": 24.6 },
+  "omr-guindy": { "distance": 24.6 },
+ 
+  "guindy-thiruvanmiyur": { "distance": 19.8 },
+  "thiruvanmiyur-guindy": { "distance": 19.8 },
+ 
+  "guindy-chrompet": { "distance": 16.9 },
+  "chrompet-guindy": { "distance": 16.9 },
+ 
+  "guindy-porur": { "distance": 11.4 },
+  "porur-guindy": { "distance": 11.4 },
+ 
+  "guindy-chennai central": { "distance": 19.2 },
+  "chennai central-guindy": { "distance": 19.2 },
+ 
+  "guindy-saidapet": { "distance": 10.7 },
+  "saidapet-guindy": { "distance": 10.7 },
+ 
+  "guindy-marina beach": { "distance": 23.3 },
+  "marina beach-guindy": { "distance": 23.3 },
+ 
+  "egmore-omr": { "distance": 22.1 },
+  "omr-egmore": { "distance": 22.1 },
+ 
+  "egmore-thiruvanmiyur": { "distance": 18.4 },
+  "thiruvanmiyur-egmore": { "distance": 18.4 },
+ 
+  "egmore-chrompet": { "distance": 15.3 },
+  "chrompet-egmore": { "distance": 15.3 },
+ 
+  "egmore-porur": { "distance": 11.0 },
+  "porur-egmore": { "distance": 11.0 },
+ 
+  "egmore-chennai central": { "distance": 21.0 },
+  "chennai central-egmore": { "distance": 21.0 },
+ 
+  "egmore-saidapet": { "distance": 15.6 },
+  "saidapet-egmore": { "distance": 15.6 },
+ 
+  "egmore-marina beach": { "distance": 12.8 },
+  "marina beach-egmore": { "distance": 12.8 },
+ 
+  "omr-thiruvanmiyur": { "distance": 18.0 },
+  "thiruvanmiyur-omr": { "distance": 18.0 },
+ 
+  "omr-chrompet": { "distance": 25.3 },
+  "chrompet-omr": { "distance": 25.3 },
+ 
+  "omr-porur": { "distance": 22.9 },
+  "porur-omr": { "distance": 22.9 },
+ 
+  "omr-chennai central": { "distance": 26.5 },
+  "chennai central-omr": { "distance": 26.5 },
+ 
+  "omr-saidapet": { "distance": 20.4 },
+  "saidapet-omr": { "distance": 20.4 },
+ 
+  "omr-marina beach": { "distance": 28.6 },
+  "marina beach-omr": { "distance": 28.6 },
+ 
+  "thiruvanmiyur-chrompet": { "distance": 22.4 },
+  "chrompet-thiruvanmiyur": { "distance": 22.4 },
+ 
+  "thiruvanmiyur-porur": { "distance": 18.1 },
+  "porur-thiruvanmiyur": { "distance": 18.1 },
+ 
+  "thiruvanmiyur-chennai central": { "distance": 14.9 },
+  "chennai central-thiruvanmiyur": { "distance": 14.9 },
+ 
+  "thiruvanmiyur-saidapet": { "distance": 13.7 },
+  "saidapet-thiruvanmiyur": { "distance": 13.7 },
+ 
+  "thiruvanmiyur-marina beach": { "distance": 12.6 },
+  "marina beach-thiruvanmiyur": { "distance": 12.6 },
+ 
+  "chrompet-porur": { "distance": 10.5 },
+  "porur-chrompet": { "distance": 10.5 },
+ 
+  "chrompet-chennai central": { "distance": 17.8 },
+  "chennai central-chrompet": { "distance": 17.8 },
+ 
+  "chrompet-saidapet": { "distance": 15.5 },
+  "saidapet-chrompet": { "distance": 15.5 },
+ 
+  "chrompet-marina beach": { "distance": 21.4 },
+  "marina beach-chrompet": { "distance": 21.4 },
+ 
+  "porur-chennai central": { "distance": 11.7 },
+  "chennai central-porur": { "distance": 11.7 },
+ 
+  "porur-saidapet": { "distance": 19.9 },
+  "saidapet-porur": { "distance": 19.9 },
+ 
+  "porur-marina beach": { "distance": 24.2 },
+  "marina beach-porur": { "distance": 24.2 },
+ 
+  "chennai central-saidapet": { "distance": 4.2 },
+  "saidapet-chennai central": { "distance": 4.2 },
+ 
+  "chennai central-marina beach": { "distance": 13.3 },
+  "marina beach-chennai central": { "distance": 13.3 },
+ 
+  "saidapet-marina beach": { "distance": 17.1 },
+  "marina beach-saidapet": { "distance": 17.1 }
+}

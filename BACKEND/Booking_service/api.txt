@@ -1,0 +1,134 @@
+# 📚 **Booking Service API Reference**
+
+## 🔗 **Service Details:**
+- **Local Port:** 9092
+- **Base Path:** `/api/bookings`
+
+---
+
+## 🔸 **GET APIs (Browser Testable - No Auth Required)**
+
+### 1. **Get All Bookings**
+```
+GET http://localhost:9092/api/bookings
+```
+
+### 2. **Get Booking by ID**
+```
+GET http://localhost:9092/api/bookings/{id}
+Example: http://localhost:9092/api/bookings/1
+```
+
+### 3. **Get Bookings by Username**
+```
+GET http://localhost:9092/api/bookings/user/{username}
+Example: http://localhost:9092/api/bookings/user/dora
+```
+
+### 4. **Get Pending Bookings**
+```
+GET http://localhost:9092/api/bookings/pending
+```
+
+### 5. **Get Active Bookings for User**
+```
+GET http://localhost:9092/api/bookings/user/{username}/active
+Example: http://localhost:9092/api/bookings/user/dora/active
+```
+
+### 6. **Get All Bookings for Driver**
+```
+GET http://localhost:9092/api/bookings/driver/{driverId}
+Example: http://localhost:9092/api/bookings/driver/123
+```
+
+### 7. **Get Cancelled Bookings for Driver**
+```
+GET http://localhost:9092/api/bookings/driver/{driverId}/cancelled
+Example: http://localhost:9092/api/bookings/driver/123/cancelled
+```
+
+---
+
+## 🔸 **POST API (JWT Required)**
+
+### 8. **Create New Booking**
+```
+POST http://localhost:9092/api/bookings
+Headers: 
+  Authorization: Bearer {JWT_TOKEN}
+  Content-Type: application/json
+Body:
+{
+  "pickupLocation": "ECR",
+  "dropLocation": "PTC",
+  "vehicleType": "STANDARD",
+  "date": "2025-09-10",
+  "bookedBy": "dora",
+  "fare": 100,
+  "distance": 15,
+  "passengerPhone": "9025484671"
+}
+```
+
+---
+
+## 🔸 **PUT APIs (No Auth Required)**
+
+### 9. **Update Payment Status**
+```
+PUT http://localhost:9092/api/bookings/{id}/payment
+Body:
+{
+  "paymentStatus": "PAID"
+}
+```
+
+### 10. **Update Passenger Details**
+```
+PUT http://localhost:9092/api/bookings/user/{username}/update-details
+Body:
+{
+  "phone": "9876543210"
+}
+```
+
+### 11. **Accept Booking**
+```
+PUT http://localhost:9092/api/bookings/{bookingId}/accept?driverId=123
+```
+
+### 12. **Accept Booking with Driver Details**
+```
+PUT http://localhost:9092/api/bookings/{bookingId}/accept-with-details?driverId=123&driverName=John&driverPhone=9876543210
+```
+
+### 13. **Deny Booking**
+```
+PUT http://localhost:9092/api/bookings/{bookingId}/deny?driverId=123
+```
+
+### 14. **Complete Ride**
+```
+PUT http://localhost:9092/api/bookings/{bookingId}/complete
+```
+
+### 15. **Cancel Booking**
+```
+PUT http://localhost:9092/api/bookings/{id}/cancel
+```
+
+---
+
+## 📋 **Summary:**
+- **Total APIs:** 15
+- **JWT Protected:** 1 (POST /api/bookings)
+- **Open Access:** 14 APIs
+
+---
+
+## 🎯 **Quick Test URLs:**
+```
+http://localhost:9092/api/bookings
+http://localhost:9092/api/bookings/pending
+```
